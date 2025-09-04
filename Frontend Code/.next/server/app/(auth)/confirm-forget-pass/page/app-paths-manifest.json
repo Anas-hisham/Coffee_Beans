@@ -1,0 +1,3 @@
+{
+  "/(auth)/confirm-forget-pass/page": "app/(auth)/confirm-forget-pass/page.js"
+}

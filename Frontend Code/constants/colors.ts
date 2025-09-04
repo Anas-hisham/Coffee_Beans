@@ -1,0 +1,8 @@
+export const COLORS = {
+  BRAND_PRIMARY: "#1CAA77",
+  PRIMARY_HOVER: "#117954",
+  TEXT: "#2D3633",
+  GRAY: "#999999",
+  WHITE: "#FFFFFF",
+  STROKE: "rgba(153, 153, 153, 0.32)",
+};

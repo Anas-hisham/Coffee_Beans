@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+select {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* Hide default password reveal icon in Edge/IE */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+/* Hide default password reveal icon in Chrome, Safari, Edge (WebKit browsers) */
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none;
+}

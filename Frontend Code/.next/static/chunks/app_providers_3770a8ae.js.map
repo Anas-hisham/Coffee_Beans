@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/Coffee%20Project/Frontend/app/providers.js"],"sourcesContent":["'use client'\r\nimport { store } from './store/store.ts'\r\nimport { Provider } from 'react-redux'\r\n\r\nexport function Providers({ children }) {\r\n  return <Provider store={store}>{children}</Provider>\r\n}"],"names":[],"mappings":";;;;;;;;;AAEA;AAFA;;;;AAIO,SAAS,UAAU,KAAY;QAAZ,EAAE,QAAQ,EAAE,GAAZ;IACxB,qBAAO,6LAAC,4JAAA,CAAA,WAAQ;QAAC,OAAO;kBAAQ;;;;;;AAClC;KAFgB","debugId":null}}]
+}
