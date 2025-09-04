@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-// const stripe = require('stripe')("sk_test_51QnE3jC7HhZ698AEia9uYBiqFkm1I5oqsJmxs5M8GSYmsQWwpISPlm7hRRBBajIpd8htnopyHUfcLbzUACCBMvBY00HYFHxRdy");
 
 app.use(cors());
 app.use(express.json());
